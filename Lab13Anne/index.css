@@ -1,0 +1,109 @@
+#taskBar{
+    position: relative;
+    background-color: rgb(99, 99, 99);
+    color: aliceblue;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+body{
+    margin: 0;
+}
+
+#box{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+#taskInput {
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(247, 246, 242);
+    border: 0ch;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#publishBtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(141, 243, 233);
+    border: 0ch;
+    margin-top: 20px;
+}
+
+.boxTask{
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+    border: 0ch;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.boxText{
+    margin: 10px;
+
+}
+#boxesTask{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    height: fit-content;
+}
+
+.text{
+    margin: 5px;
+}
+.boxTask{
+    position: relative;
+    height: fit-content;
+    padding: 10px;
+}
+#boxDoing{
+    height: fit-content;
+}
+#boxDone{
+    height: fit-content;
+}
+
+.post{
+    position: relative;
+    background-color: rgb(253, 253, 253);
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.UpBtn{
+    background-color: rgb(249, 130, 172);
+    border-radius: 5px;
+    border: 0px;
+    width: 40px;
+    height: 20px;
+    margin: 5px;
+}
+.DownBtn{
+    background-color: rgb(245, 179, 55);
+    border-radius: 5px;
+    border: 0px;
+    width: 40px;
+    height: 20px;
+    margin: 5px;
+}
+.iconDelete{
+    width: 30px;
+    margin-left: 260px;
+    margin-top: 0px;
+}
+
+.BoxesTask{
+    display: flex;
+    flex-direction: row;
+}
